@@ -202,14 +202,14 @@ function CTA() {
                                                     className: "mr-2 h-4 w-4"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Nextjs(projects)/dentist_app/src/components/landing/CTA.tsx",
-                                                    lineNumber: 45,
+                                                    lineNumber: 44,
                                                     columnNumber: 17
                                                 }, this),
                                                 "Start free chat"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Nextjs(projects)/dentist_app/src/components/landing/CTA.tsx",
-                                            lineNumber: 41,
+                                            lineNumber: 40,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nextjs$28$projects$292f$dentist_app$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Nextjs$28$projects$292f$dentist_app$2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Button"], {
@@ -221,20 +221,20 @@ function CTA() {
                                                     className: "mr-2 h-4 w-4"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Nextjs(projects)/dentist_app/src/components/landing/CTA.tsx",
-                                                    lineNumber: 53,
+                                                    lineNumber: 52,
                                                     columnNumber: 17
                                                 }, this),
                                                 "Book appointment"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Nextjs(projects)/dentist_app/src/components/landing/CTA.tsx",
-                                            lineNumber: 48,
+                                            lineNumber: 47,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Nextjs(projects)/dentist_app/src/components/landing/CTA.tsx",
-                                    lineNumber: 40,
+                                    lineNumber: 39,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -257,19 +257,19 @@ function CTA() {
                                                     className: "w-1.5 h-1.5 bg-white rounded-full animate-pulse"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Nextjs(projects)/dentist_app/src/components/landing/CTA.tsx",
-                                                    lineNumber: 65,
+                                                    lineNumber: 64,
                                                     columnNumber: 19
                                                 }, this),
                                                 "Available 24/7"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Nextjs(projects)/dentist_app/src/components/landing/CTA.tsx",
-                                            lineNumber: 64,
+                                            lineNumber: 63,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Nextjs(projects)/dentist_app/src/components/landing/CTA.tsx",
-                                        lineNumber: 63,
+                                        lineNumber: 62,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nextjs$28$projects$292f$dentist_app$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -279,7 +279,7 @@ function CTA() {
                                                 className: "absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent rounded-2xl blur-xl scale-110"
                                             }, void 0, false, {
                                                 fileName: "[project]/Nextjs(projects)/dentist_app/src/components/landing/CTA.tsx",
-                                                lineNumber: 73,
+                                                lineNumber: 72,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nextjs$28$projects$292f$dentist_app$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Nextjs$28$projects$292f$dentist_app$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -291,31 +291,31 @@ function CTA() {
                                                 priority: true
                                             }, void 0, false, {
                                                 fileName: "[project]/Nextjs(projects)/dentist_app/src/components/landing/CTA.tsx",
-                                                lineNumber: 75,
+                                                lineNumber: 74,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Nextjs(projects)/dentist_app/src/components/landing/CTA.tsx",
-                                        lineNumber: 71,
+                                        lineNumber: 70,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Nextjs$28$projects$292f$dentist_app$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute -bottom-2 -right-2 w-16 h-16 bg-gradient-to-br from-primary/10 to-primary/5 rounded-full blur-lg"
                                     }, void 0, false, {
                                         fileName: "[project]/Nextjs(projects)/dentist_app/src/components/landing/CTA.tsx",
-                                        lineNumber: 86,
+                                        lineNumber: 85,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Nextjs(projects)/dentist_app/src/components/landing/CTA.tsx",
-                                lineNumber: 61,
+                                lineNumber: 60,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/Nextjs(projects)/dentist_app/src/components/landing/CTA.tsx",
-                            lineNumber: 60,
+                            lineNumber: 59,
                             columnNumber: 11
                         }, this)
                     ]

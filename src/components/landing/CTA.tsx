@@ -36,7 +36,6 @@ function CTA() {
               </p>
             </div>
 
-            {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-3 pt-2">
               <Button
                 size="lg"
