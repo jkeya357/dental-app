@@ -9,7 +9,7 @@
   "static/chunks/38a87_next_app_1d702e05.js",
   "static/chunks/[next]_entry_page-loader_ts_fc426f1c._.js",
   "static/chunks/38a87_react-dom_0d2e9066._.js",
-  "static/chunks/38a87_13636caf._.js",
+  "static/chunks/38a87_bc21a015._.js",
   "static/chunks/[root-of-the-server]__a53b0f36._.js"
 ],
     source: "entry"
