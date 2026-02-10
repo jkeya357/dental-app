@@ -5,12 +5,6 @@ import Hero from "@/components/landing/Hero";
 import HowItWorks from "@/components/landing/HowItWorks";
 import PricingSection from "@/components/landing/PricingSection";
 import WhatToAsk from "@/components/landing/WhatToAsk";
-import {
-  SignedIn,
-  SignedOut,
-  SignOutButton,
-  SignUpButton,
-} from "@clerk/nextjs";
 import React from "react";
 
 export default function Home() {
