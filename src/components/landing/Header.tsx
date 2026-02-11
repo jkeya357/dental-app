@@ -20,10 +20,16 @@ const Header = () => {
         </Link>
 
         <div className="hidden md:flex items-center gap-8">
-          <a href="#" className="text-muted-foreground hover:text-foreground">
+          <a
+            href="#how_it_works"
+            className="text-muted-foreground hover:text-foreground"
+          >
             How it Works
           </a>
-          <a href="#" className="text-muted-foreground hover:text-foreground">
+          <a
+            href="#pricing_section"
+            className="text-muted-foreground hover:text-foreground"
+          >
             Pricing
           </a>
           <a href="#" className="text-muted-foreground hover:text-foreground">
