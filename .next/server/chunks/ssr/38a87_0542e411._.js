@@ -2837,6 +2837,10 @@ const configEnv = ("TURBOPACK compile-time value", {
         ("TURBOPACK compile-time value", {
             "protocol": ("TURBOPACK compile-time value", "https"),
             "hostname": ("TURBOPACK compile-time value", "avatar.iran.liara.run")
+        }),
+        ("TURBOPACK compile-time value", {
+            "protocol": ("TURBOPACK compile-time value", "https"),
+            "hostname": ("TURBOPACK compile-time value", "img.clerk.com")
         })
     ])
 });

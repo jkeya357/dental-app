@@ -2,6 +2,24 @@
   "node": {
     "7fbfa0223f83029c5b924fbf61080411adbaa80911": {
       "workers": {
+        "app/dashboard/page": {
+          "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/appointments.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true,
+          "exportedName": "formatMetadataHeaders",
+          "filename": "Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
+        },
+        "app/page": {
+          "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true,
+          "exportedName": "formatMetadataHeaders",
+          "filename": "Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
+        },
+        "app/pro/page": {
+          "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/pro/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true,
+          "exportedName": "formatMetadataHeaders",
+          "filename": "Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
+        },
         "app/voice/page": {
           "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/voice/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": true,
@@ -10,6 +28,9 @@
         }
       },
       "layer": {
+        "app/dashboard/page": "rsc",
+        "app/page": "rsc",
+        "app/pro/page": "rsc",
         "app/voice/page": "rsc"
       },
       "filename": "Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js",
@@ -17,6 +38,24 @@
     },
     "7fe3b6a4211d8d93d7cf95dd3731f6bb894392f008": {
       "workers": {
+        "app/dashboard/page": {
+          "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/appointments.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true,
+          "exportedName": "collectKeylessMetadata",
+          "filename": "Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
+        },
+        "app/page": {
+          "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true,
+          "exportedName": "collectKeylessMetadata",
+          "filename": "Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
+        },
+        "app/pro/page": {
+          "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/pro/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true,
+          "exportedName": "collectKeylessMetadata",
+          "filename": "Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
+        },
         "app/voice/page": {
           "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/voice/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": true,
@@ -25,6 +64,9 @@
         }
       },
       "layer": {
+        "app/dashboard/page": "rsc",
+        "app/page": "rsc",
+        "app/pro/page": "rsc",
         "app/voice/page": "rsc"
       },
       "filename": "Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js",
@@ -32,6 +74,24 @@
     },
     "7f11a404381665fd0ddcd4cf1498dbf06cfed3462e": {
       "workers": {
+        "app/dashboard/page": {
+          "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/appointments.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true,
+          "exportedName": "createOrReadKeylessAction",
+          "filename": "Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/page": {
+          "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true,
+          "exportedName": "createOrReadKeylessAction",
+          "filename": "Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/pro/page": {
+          "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/pro/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true,
+          "exportedName": "createOrReadKeylessAction",
+          "filename": "Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
         "app/voice/page": {
           "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/voice/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": true,
@@ -40,6 +100,9 @@
         }
       },
       "layer": {
+        "app/dashboard/page": "action-browser",
+        "app/page": "action-browser",
+        "app/pro/page": "action-browser",
         "app/voice/page": "action-browser"
       },
       "filename": "Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js",
@@ -47,6 +110,24 @@
     },
     "7f596588583631122e208f1522762473bc4657a51c": {
       "workers": {
+        "app/dashboard/page": {
+          "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/appointments.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true,
+          "exportedName": "syncKeylessConfigAction",
+          "filename": "Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/page": {
+          "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true,
+          "exportedName": "syncKeylessConfigAction",
+          "filename": "Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/pro/page": {
+          "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/pro/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true,
+          "exportedName": "syncKeylessConfigAction",
+          "filename": "Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
         "app/voice/page": {
           "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/voice/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": true,
@@ -55,6 +136,9 @@
         }
       },
       "layer": {
+        "app/dashboard/page": "action-browser",
+        "app/page": "action-browser",
+        "app/pro/page": "action-browser",
         "app/voice/page": "action-browser"
       },
       "filename": "Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js",
@@ -62,6 +146,24 @@
     },
     "7f8c1001eea6ac4d7124da508e3c659a770ba21825": {
       "workers": {
+        "app/dashboard/page": {
+          "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/appointments.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true,
+          "exportedName": "detectKeylessEnvDriftAction",
+          "filename": "Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/page": {
+          "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true,
+          "exportedName": "detectKeylessEnvDriftAction",
+          "filename": "Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/pro/page": {
+          "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/pro/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true,
+          "exportedName": "detectKeylessEnvDriftAction",
+          "filename": "Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
         "app/voice/page": {
           "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/voice/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": true,
@@ -70,6 +172,9 @@
         }
       },
       "layer": {
+        "app/dashboard/page": "action-browser",
+        "app/page": "action-browser",
+        "app/pro/page": "action-browser",
         "app/voice/page": "action-browser"
       },
       "filename": "Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js",
@@ -77,6 +182,24 @@
     },
     "7fa81e6fd3f64c5a56e87d334f8faa2a71c179ac21": {
       "workers": {
+        "app/dashboard/page": {
+          "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/appointments.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true,
+          "exportedName": "deleteKeylessAction",
+          "filename": "Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/page": {
+          "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true,
+          "exportedName": "deleteKeylessAction",
+          "filename": "Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
+        "app/pro/page": {
+          "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/pro/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true,
+          "exportedName": "deleteKeylessAction",
+          "filename": "Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        },
         "app/voice/page": {
           "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/voice/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": true,
@@ -85,6 +208,9 @@
         }
       },
       "layer": {
+        "app/dashboard/page": "action-browser",
+        "app/page": "action-browser",
+        "app/pro/page": "action-browser",
         "app/voice/page": "action-browser"
       },
       "filename": "Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js",
@@ -92,6 +218,24 @@
     },
     "00b06a702f80bcd2f092667fd6e2580f64bbb8b32d": {
       "workers": {
+        "app/dashboard/page": {
+          "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/appointments.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true,
+          "exportedName": "syncUser",
+          "filename": "Nextjs(projects)/dentist_app/src/lib/actions/users.ts"
+        },
+        "app/page": {
+          "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true,
+          "exportedName": "syncUser",
+          "filename": "Nextjs(projects)/dentist_app/src/lib/actions/users.ts"
+        },
+        "app/pro/page": {
+          "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/pro/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true,
+          "exportedName": "syncUser",
+          "filename": "Nextjs(projects)/dentist_app/src/lib/actions/users.ts"
+        },
         "app/voice/page": {
           "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/voice/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": true,
@@ -100,6 +244,9 @@
         }
       },
       "layer": {
+        "app/dashboard/page": "action-browser",
+        "app/page": "action-browser",
+        "app/pro/page": "action-browser",
         "app/voice/page": "action-browser"
       },
       "filename": "Nextjs(projects)/dentist_app/src/lib/actions/users.ts",
@@ -107,6 +254,24 @@
     },
     "7f8fc0155c98a837a7b595803c195fd10bda9e0837": {
       "workers": {
+        "app/dashboard/page": {
+          "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/appointments.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true,
+          "exportedName": "invalidateCacheAction",
+          "filename": "Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js"
+        },
+        "app/page": {
+          "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true,
+          "exportedName": "invalidateCacheAction",
+          "filename": "Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js"
+        },
+        "app/pro/page": {
+          "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/pro/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true,
+          "exportedName": "invalidateCacheAction",
+          "filename": "Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js"
+        },
         "app/voice/page": {
           "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/voice/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": true,
@@ -115,10 +280,103 @@
         }
       },
       "layer": {
+        "app/dashboard/page": "action-browser",
+        "app/page": "action-browser",
+        "app/pro/page": "action-browser",
         "app/voice/page": "action-browser"
       },
       "filename": "Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js",
       "exportedName": "invalidateCacheAction"
+    },
+    "00767fb67c3ad459d68d23b70e8614e14962d292ff": {
+      "workers": {
+        "app/dashboard/page": {
+          "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/appointments.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true,
+          "exportedName": "getUserAppointmentStats",
+          "filename": "Nextjs(projects)/dentist_app/src/lib/actions/appointments.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/page": "rsc"
+      },
+      "filename": "Nextjs(projects)/dentist_app/src/lib/actions/appointments.ts",
+      "exportedName": "getUserAppointmentStats"
+    },
+    "00b65756629283aa40360a2211f840e9390627bb43": {
+      "workers": {
+        "app/dashboard/page": {
+          "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/appointments.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true,
+          "exportedName": "getAppointments",
+          "filename": "Nextjs(projects)/dentist_app/src/lib/actions/appointments.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/page": "rsc"
+      },
+      "filename": "Nextjs(projects)/dentist_app/src/lib/actions/appointments.ts",
+      "exportedName": "getAppointments"
+    },
+    "00d45f109132b8f4dc76c6756da56729b18be98736": {
+      "workers": {
+        "app/dashboard/page": {
+          "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/appointments.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true,
+          "exportedName": "getUserAppointments",
+          "filename": "Nextjs(projects)/dentist_app/src/lib/actions/appointments.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/page": "rsc"
+      },
+      "filename": "Nextjs(projects)/dentist_app/src/lib/actions/appointments.ts",
+      "exportedName": "getUserAppointments"
+    },
+    "40d210e070a5341d782a0511ecbcb9baea0d7951c5": {
+      "workers": {
+        "app/dashboard/page": {
+          "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/appointments.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true,
+          "exportedName": "bookAppointment",
+          "filename": "Nextjs(projects)/dentist_app/src/lib/actions/appointments.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/page": "rsc"
+      },
+      "filename": "Nextjs(projects)/dentist_app/src/lib/actions/appointments.ts",
+      "exportedName": "bookAppointment"
+    },
+    "40f4a7779152eb89668eb8032eb1b3935d290d5a2d": {
+      "workers": {
+        "app/dashboard/page": {
+          "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/appointments.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true,
+          "exportedName": "updateAppointmentStatus",
+          "filename": "Nextjs(projects)/dentist_app/src/lib/actions/appointments.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/page": "rsc"
+      },
+      "filename": "Nextjs(projects)/dentist_app/src/lib/actions/appointments.ts",
+      "exportedName": "updateAppointmentStatus"
+    },
+    "6005ccf138b0eaf0e6a743e4770ed31896fd162184": {
+      "workers": {
+        "app/dashboard/page": {
+          "moduleId": "[project]/Nextjs(projects)/dentist_app/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/users.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE3 => \"[project]/Nextjs(projects)/dentist_app/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE4 => \"[project]/Nextjs(projects)/dentist_app/src/lib/actions/appointments.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": true,
+          "exportedName": "getBookedTimeSlots",
+          "filename": "Nextjs(projects)/dentist_app/src/lib/actions/appointments.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/page": "rsc"
+      },
+      "filename": "Nextjs(projects)/dentist_app/src/lib/actions/appointments.ts",
+      "exportedName": "getBookedTimeSlots"
     }
   },
   "edge": {},
