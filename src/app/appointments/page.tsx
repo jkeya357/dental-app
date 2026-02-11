@@ -13,6 +13,7 @@ import { APPOINTMENT_TYPES } from "@/lib/utils";
 import { format } from "date-fns";
 import { useState } from "react";
 import { toast } from "sonner";
+import Image from "next/image";
 
 interface Appointment {
   id: string;
@@ -202,9 +203,11 @@ const AppointmentsPage = () => {
               >
                 <div className="flex items-center gap-3 mb-3">
                   <div className="size-10 bg-primary/10 rounded-full flex items-center justify-center">
-                    <img
+                    <Image
                       src={appointment.doctorImageUrl}
                       alt={appointment.doctorName}
+                      width={64}
+                      height={64}
                       className="size-10 rounded-full"
                     />
                   </div>

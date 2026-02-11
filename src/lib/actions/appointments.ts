@@ -21,18 +21,35 @@ interface AppointmentWithUserDoctor {
   };
 }
 
-const  transformAppointment = (appointment: AppointmentWithUserDoctor) => {
+interface TransformedAppointment {
+  id: string;
+  date: string; // formatted as YYYY-MM-DD
+  time: string;
+  reason?: string;
+  status: AppointmentStatus;
+  patientName: string;
+  patientEmail: string;
+  doctorName: string;
+  doctorImageUrl: string;
+}
+
+const  transformAppointment = (appointment: AppointmentWithUserDoctor): TransformedAppointment  => {
   return {
-    ...appointment,
-    patientName: `${appointment.user.firstName || ""} ${appointment.user.lastName || ""}`.trim(),
+    id: appointment.id,
+    date: appointment.date.toISOString().split("T")[0],
+    time: appointment.time,
+    reason: appointment.reason ?? undefined,
+    status: appointment.status,
+    patientName: `${appointment.user.firstName || ""} ${
+      appointment.user.lastName || ""
+    }`.trim(),
     patientEmail: appointment.user.email,
     doctorName: appointment.doctor.name,
-    doctorImageUrl: appointment.doctor.imageUrl || "",
-    date: appointment.date.toISOString().split("T")[0],
+    doctorImageUrl: appointment.doctor.imageUrl ?? "",
   };
 }
 
-export async function getAppointments() {
+export async function getAppointments(): Promise<TransformedAppointment[]> {
   try {
     const appointments = await prisma.appointment.findMany({
       include: {

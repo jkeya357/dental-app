@@ -1,29 +1,26 @@
-"use server"
+"use server";
 
-import { Gender } from "@prisma/client"
-import prisma from "../prisma"
+import { Gender } from "@prisma/client";
+import prisma from "../prisma";
 import { generateAvatar } from "../utils";
 import { revalidatePath } from "next/cache";
 
-export async function getDoctors(){
-    try {
-        const doctors = await prisma.doctor.findMany({
-            include: {
-                _count: {select: {appointments: true}}
-            },
-            orderBy: {createdAt: "desc"}
-        })
+export async function getDoctors() {
+  try {
+    const doctors = await prisma.doctor.findMany({
+      include: { _count: { select: { appointments: true } } },
+      orderBy: { createdAt: "desc" },
+    });
 
-        return doctors.map((doctor) => ({
-            ...doctor,
-            appointmentCount: doctor._count.appointments
-        }))
-    } catch (error) {
-        console.log("Error fetching doctors: ",error)
-        throw new Error("Failed to fetch doctors")
-    }
+    return doctors.map((doctor) => ({
+      ...doctor,
+      appointmentCount: doctor._count.appointments,
+    }));
+  } catch (error) {
+    console.error("Error fetching doctors: ", error);
+    throw new Error("Failed to fetch doctors");
+  }
 }
-
 
 interface CreateDoctorInput {
   name: string;
@@ -34,22 +31,27 @@ interface CreateDoctorInput {
   isActive: boolean;
 }
 
+// Prisma unique constraint error type
+interface PrismaKnownError extends Error {
+  code?: string;
+}
+
 export async function createDoctor(input: CreateDoctorInput) {
   try {
     if (!input.name || !input.email) throw new Error("Name and email are required");
 
-    console.log("INPUT REQUEST VALUES: ", input)
+    console.log("INPUT REQUEST VALUES: ", input);
 
     const doctor = await prisma.doctor.create({
       data: {
-            name: input.name,
-            email: input.email,
-            phone: input.phone,
-            speciality: input.speciality,
-            gender: input.gender,
-            imageUrl: generateAvatar(input.name, input.gender),
-            isActive: input.isActive ?? true
-        },
+        name: input.name,
+        email: input.email,
+        phone: input.phone,
+        speciality: input.speciality,
+        gender: input.gender,
+        imageUrl: generateAvatar(input.name, input.gender),
+        isActive: input.isActive ?? true,
+      },
     });
 
     revalidatePath("/admin");
@@ -58,8 +60,9 @@ export async function createDoctor(input: CreateDoctorInput) {
   } catch (error: unknown) {
     console.error("Error creating doctor:", error);
 
-    // handle unique constraint violation (email already exists)
-    if (error instanceof Error && (error as any)?.code === "P2002") {
+    // type guard for Prisma known error
+    const prismaError = error as PrismaKnownError;
+    if (prismaError.code === "P2002") {
       throw new Error("A doctor with this email already exists");
     }
 
@@ -73,7 +76,6 @@ interface UpdateDoctorInput extends Partial<CreateDoctorInput> {
 
 export async function updateDoctor(input: UpdateDoctorInput) {
   try {
-    // validate
     if (!input.name || !input.email) throw new Error("Name and email are required");
 
     const currentDoctor = await prisma.doctor.findUnique({
@@ -83,20 +85,15 @@ export async function updateDoctor(input: UpdateDoctorInput) {
 
     if (!currentDoctor) throw new Error("Doctor not found");
 
-    // if email is changing, check if the new email already exists
     if (input.email !== currentDoctor.email) {
       const existingDoctor = await prisma.doctor.findUnique({
         where: { email: input.email },
       });
-
-      if (existingDoctor) {
-        throw new Error("A doctor with this email already exists");
-      }
+      if (existingDoctor) throw new Error("A doctor with this email already exists");
     }
 
     const doctor = await prisma.doctor.update({
       where: { id: input.id },
-      // ...input is going to trigger the unique constraint violation for email
       data: {
         name: input.name,
         email: input.email,
@@ -108,7 +105,7 @@ export async function updateDoctor(input: UpdateDoctorInput) {
     });
 
     return doctor;
-  } catch (error) {
+  } catch (error: unknown) {
     console.error("Error updating doctor:", error);
     throw new Error("Failed to update doctor");
   }
@@ -118,11 +115,7 @@ export async function getAvailableDoctors() {
   try {
     const doctors = await prisma.doctor.findMany({
       where: { isActive: true },
-      include: {
-        _count: {
-          select: { appointments: true },
-        },
-      },
+      include: { _count: { select: { appointments: true } } },
       orderBy: { name: "asc" },
     });
 
