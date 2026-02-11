@@ -14,6 +14,16 @@ import { format } from "date-fns";
 import { useState } from "react";
 import { toast } from "sonner";
 
+interface Appointment {
+  id: string;
+  doctorName: string;
+  patientEmail: string;
+  date: string; // or Date if you parse it
+  time: string;
+  doctorImageUrl?: string;
+  reason?: string;
+}
+
 const AppointmentsPage = () => {
   const [selectedDentistId, setSelectedDentistId] = useState<string | null>(
     null,
@@ -23,7 +33,8 @@ const AppointmentsPage = () => {
   const [selectedType, setSelectedType] = useState("");
   const [currentStep, setCurrentStep] = useState(1); // 1: select dentist, 2: select time, 3: confirm
   const [showConfirmationModal, setShowConfirmationModal] = useState(false);
-  const [bookedAppointment, setBookedAppointment] = useState<any>(null);
+  const [bookedAppointment, setBookedAppointment] =
+    useState<Appointment | null>(null);
 
   const bookAppointmentMutation = useBookAppointment();
   const { data: userAppointments = [] } = useUserAppointments();
@@ -52,12 +63,21 @@ const AppointmentsPage = () => {
         doctorId: selectedDentistId,
         date: selectedDate,
         time: selectedTime,
-        reason: appointmentType?.name,
+        reason: appointmentType?.name ?? undefined,
       },
       {
         onSuccess: async (appointment) => {
+          const safeAppointment: Appointment = {
+            id: appointment.id,
+            doctorName: appointment.doctorName,
+            patientEmail: appointment.patientEmail,
+            date: appointment.date,
+            time: appointment.time,
+            doctorImageUrl: appointment.doctorImageUrl ?? undefined,
+            reason: appointment.reason ?? undefined, // <-- null becomes undefined
+          };
           // store the appointment details to show in the modal
-          setBookedAppointment(appointment);
+          setBookedAppointment(safeAppointment);
 
           try {
             const emailResponse = await fetch("/api/send-appointment-email", {

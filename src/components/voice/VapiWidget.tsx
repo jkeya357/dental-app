@@ -7,11 +7,21 @@ import { Card } from "../ui/card";
 import Image from "next/image";
 import { Button } from "../ui/button";
 
+interface VapiMessage {
+  role: "assistant" | "user";
+  content: string;
+}
+
+interface VapiError {
+  message: string;
+  code?: number;
+}
+
 const VapiWidget = () => {
   const [callActive, setCallActive] = useState(false);
   const [connecting, setConnecting] = useState(false);
   const [isSpeaking, setIsSpeaking] = useState(false);
-  const [messages, setMessages] = useState<any[]>([]);
+  const [messages, setMessages] = useState<VapiMessage[]>([]);
   const [callEnded, setCallEnded] = useState(false);
 
   const { user, isLoaded } = useUser();
@@ -52,14 +62,22 @@ const VapiWidget = () => {
       setIsSpeaking(false);
     };
 
-    const handleMessage = (message: any) => {
+    const handleMessage = (message: {
+      type: string;
+      transcriptType?: string;
+      transcript?: string;
+      role: "assistant" | "user";
+    }) => {
       if (message.type === "transcript" && message.transcriptType === "final") {
-        const newMessage = { content: message.transcript, role: message.role };
+        const newMessage: VapiMessage = {
+          content: message.transcript || "",
+          role: message.role,
+        };
         setMessages((prev) => [...prev, newMessage]);
       }
     };
 
-    const handleError = (error: any) => {
+    const handleError = (error: VapiError) => {
       console.log("Vapi Error", error);
       setConnecting(false);
       setCallActive(false);

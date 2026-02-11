@@ -55,15 +55,15 @@ export async function createDoctor(input: CreateDoctorInput) {
     revalidatePath("/admin");
 
     return doctor;
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error("Error creating doctor:", error);
 
     // handle unique constraint violation (email already exists)
-    if (error?.code === "P2002") {
+    if (error instanceof Error && (error as any)?.code === "P2002") {
       throw new Error("A doctor with this email already exists");
     }
 
-    throw new Error("Failed to create doctor", error);
+    throw new Error("Failed to create doctor");
   }
 }
 

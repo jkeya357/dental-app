@@ -1,7 +1,6 @@
 {
-  "/admin/page": "app/admin/page.js",
+  "/api/send-appointment-email/route": "app/api/send-appointment-email/route.js",
   "/appointments/page": "app/appointments/page.js",
   "/dashboard/page": "app/dashboard/page.js",
-  "/page": "app/page.js",
-  "/pro/page": "app/pro/page.js"
+  "/page": "app/page.js"
 }
