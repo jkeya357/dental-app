@@ -4,7 +4,15 @@ import { auth } from "@clerk/nextjs/server";
 import { prisma } from "../prisma";
 import { AppointmentStatus } from "@prisma/client";
 
-function transformAppointment(appointment: any) {
+interface TransformAppointmentType{
+  patientName: String,
+  patientEmail: String,
+  doctorName: String,
+  doctorImageUrl: String,
+  date: Date
+}
+
+const  transformAppointment = (appointment: any) => {
   return {
     ...appointment,
     patientName: `${appointment.user.firstName || ""} ${appointment.user.lastName || ""}`.trim(),
